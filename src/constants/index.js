@@ -2,10 +2,11 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
+import drunk from "../assets/projects/drunk.avif";
 
 export const HERO_CONTENT = `Hello, My name is Mike Wilkins and i am passionate about counselling and helping people to overcome any difficulties they may be having. I strongly believe that given the right conditions one can make significant changes in their lives. I offer a safe, non-judgemental and confidential environment where we can explore together any difficulties you may be experiencing.`;
 
-export const ABOUT_TEXT = `I have a BA Joint Honours degree in English literature, Sociology and Psychology. I have followed the CPCAB route to qualification by completing Level 2 in Counselling Skills, Level 3 in Counselling Studies and the Level 4 Diploma in Therapeutic Counselling. I also have an online diploma in e-counselling (online counselling)`;
+export const ABOUT_TEXT = `I have a BA Joint Honours degree in English literature, Sociology and Psychology. I have followed the CPCAB route to qualification by completing Level 2 in Counselling Skills, Level 3 in Counselling Studies and the Level 4 Diploma in Therapeutic Counselling. I also have an online diploma in e-counselling (online counselling). `;
 
 // export const EXPERIENCES = [
 //   {
@@ -40,43 +41,46 @@ export const ABOUT_TEXT = `I have a BA Joint Honours degree in English literatur
 
 export const PROJECTS = [
   {
-    title: "Coffee Roasters Website",
-    image: project1,
+    title: "Individuals ",
+    image: drunk,
     description:
-      "A fully functional multi-page coffee subscription website with features like product listing and shopping cart pop up modal",
-    technologies: ["HTML", "Tailwind", "React", "Node.js"],
-    site: "https://coffee-roasters-react-app.vercel.app/",
-    code: "https://github.com/J-R77-stack/Coffee-roasters-react-app",
+      "Individuals: Initial 50 minute assessment session 50euro/£45. Weekly 50 minute session 50euro/£45",
+
+    technologies: ["£50"],
+    site: "",
+    code: "",
   },
   {
-    title: "Tip Calculator App ",
-    image: project2,
+    title: "Online",
+    image: drunk,
     description:
-      "An application to calculate the correct tip and total cost of the bill per person.",
-    technologies: ["HTML", "CSS", "React"],
-    site: "https://tip-calculator-react-gilt.vercel.app/",
-    code: "https://github.com/J-R77-stack/tip-calculator-React",
+      "​ Online Counselling: Email, Instant Messaging, Web Cam Initial 50 minute assessment session 50euro/£45. Weekly 50 minute session 50euro/£45",
+    technologies: ["£60"],
+    site: "",
+    code: "",
   },
   {
-    title: "TODO List",
-    image: project3,
-    description: "Simple TODO List App build with react and Tailwind",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
-    site: "https://shopping-to-get-list-react.vercel.app/",
-    code: "https://github.com/J-R77-stack/Shopping-to-get-list-react",
+    title: "Couples",
+    image: drunk,
+    description:
+      "Couples: Initial 50 minute assessment 70euro/£65 Weekly 50 minute sessions 70euro/£65",
+    technologies: ["£1000"],
+    site: "",
+    code: "",
   },
   {
-    title: "Coming Soon",
-    image: project4,
-    description: "Coming Soon",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
-    site: "https://coffee-roasters-react-app.vercel.app/",
-    code: "https://github.com/J-R77-stack/My-Portfolio",
+    title: "Students",
+    image: drunk,
+    description:
+      "Students: Student rates available for those who have to undertake personal therapy as a course requirement.",
+    technologies: ["A million Duro"],
+    site: "",
+    code: "",
   },
 ];
 
 export const CONTACT = {
-  address: "Leighton Buzzard, Bedfordshire UK",
-  phoneNo: "+44 7737731448 ",
-  email: "johnnyramsay81@gmail.com",
+  address: "Good Drink Street Ireland",
+  phoneNo: "+00 000000000 ",
+  email: "haveagooddrink@gmail.com",
 };
