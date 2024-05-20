@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate React developer with a love for creating robust and beautiful web applications. During 3 years of study , I have honed my skills in front-end technologies like React and also Django, as well as back-end technologies like Node.js, MySQL and PostgreSQL. My goal is to leverage the knowledge I've gained to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Hello, My name is Mike Wilkins and i am passionate about counselling and helping people to overcome any difficulties they may be having. I strongly believe that given the right conditions one can make significant changes in their lives. I offer a safe, non-judgemental and confidential environment where we can explore together any difficulties you may be experiencing.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile React developer with a passion for creating efficient and user-friendly web applications. With 3 years of Study, I have worked with a variety of technologies, including React, Node.js, MySQL and PostgreSQL. My journey in web development began at the Code Institute where I gained a Diploma in Full Stack Software Development. Proficient in HTML, CSS, JavaScript, Python and  Django. After my Diploma I started to gain a deeper curiosity for JavaScript Frameworks and Librarys which lead me to React. I have 25 years’ experience as a Gas engineer and 4 years’ experience teaching English in Japan. I consider myself to be a good team-player with strong communication skills.  I am very keen to gain entry into the tech industry and become part of an exciting development team where I can learn and contribute!`;
+export const ABOUT_TEXT = `I have a BA Joint Honours degree in English literature, Sociology and Psychology. I have followed the CPCAB route to qualification by completing Level 2 in Counselling Skills, Level 3 in Counselling Studies and the Level 4 Diploma in Therapeutic Counselling. I also have an online diploma in e-counselling (online counselling)`;
 
 // export const EXPERIENCES = [
 //   {
