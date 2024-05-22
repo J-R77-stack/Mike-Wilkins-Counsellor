@@ -1,4 +1,3 @@
-import drunk from "../assets/projects/drunk.avif";
 import student from "../assets/projects/students.jpg";
 import online from "../assets/projects/online.jpg";
 import individual from "../assets/projects/individuals.jpg";
@@ -13,9 +12,9 @@ export const PROJECTS = [
     title: "Individuals ",
     image: individual,
     description:
-      "Initial 50 minute assessment session 50euro/£45. Weekly 50 minute session 50euro/£45",
+      "Initial 50 minute assessment session. Weekly 50 minute session",
 
-    technologies: ["£50euro/£45", "50euro/£45"],
+    technologies: ["60euro/£55", "60euro/£55"],
     site: "",
     code: "",
   },
@@ -23,17 +22,16 @@ export const PROJECTS = [
     title: "Online",
     image: online,
     description:
-      "​Email, Instant Messaging, Web Cam Initial 50 minute assessment session 50euro/£45. Weekly 50 minute session 50euro/£45",
-    technologies: ["£50euro/£45", "£50euro/£45"],
+      "​Email, Instant Messaging, Web Cam Initial 50 minute assessment session . Weekly 50 minute session",
+    technologies: ["£60euro/£55", "£60euro/£55"],
     site: "",
     code: "",
   },
   {
     title: "Couples",
     image: couples,
-    description:
-      "Initial 50 minute assessment 70euro/£65 Weekly 50 minute sessions 70euro/£65",
-    technologies: ["£70euro/£65", "70euro/£65"],
+    description: "Initial 50 minute assessment. Weekly 50 minute sessions ",
+    technologies: ["£80euro/£75", "80euro/£75"],
     site: "",
     code: "",
   },
@@ -41,15 +39,12 @@ export const PROJECTS = [
     title: "Students",
     image: student,
     description:
-      "Students: Student rates available for those who have to undertake personal therapy as a course requirement.",
-    technologies: ["A million Duro"],
-    site: "",
-    code: "",
+      "Student rates available for those who have to undertake personal therapy as a course requirement.",
+    technologies: ["To be negotiated"],
   },
 ];
 
 export const CONTACT = {
-  address: "Good Drink Street Ireland",
-  phoneNo: "+00 000000000 ",
-  email: "haveagooddrink@gmail.com",
+  phoneNo: "0831065311 ",
+  email: "mcounselling@protomail.com",
 };

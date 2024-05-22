@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import tranquilty from "../assets/projects/tranquility.webp";
+import mike from "../assets/projects/mikeWilkins.jpeg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -46,7 +46,7 @@ function Hero() {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={tranquilty}
+              src={mike}
               alt="Mike Wilkins"
               className="rounded-2xl"
             />

@@ -1,10 +1,9 @@
-import { RiReactjsLine } from "react-icons/ri";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { TbBrandJavascript } from "react-icons/tb";
-import { FaBootstrap } from "react-icons/fa";
-import { TbBrandDjango } from "react-icons/tb";
-import { BiLogoTailwindCss } from "react-icons/bi";
+import { FaRegHandPeace } from "react-icons/fa6";
+import { WiDaySunny } from "react-icons/wi";
+import { CiFaceSmile } from "react-icons/ci";
+import { MdOutlineCastForEducation } from "react-icons/md";
+import { FaEarListen } from "react-icons/fa6";
+import { FaBrain } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -40,49 +39,42 @@ function Technologies() {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4">
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <FaRegHandPeace className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4">
-          <FaNodeJs className="text-7xl text-green-500" />
+          <WiDaySunny className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4">
-          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <CiFaceSmile className="text-7xl text-sky-700" />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4">
-          <TbBrandJavascript className="text-7xl text-yellow-500" />
+          <MdOutlineCastForEducation className="text-7xl text-yellow-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4">
-          <FaBootstrap className="text-7xl text-purple-700" />
+          <FaEarListen className="text-7xl text-purple-700" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4">
-          <TbBrandDjango className="text-7xl text-slate-400" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4">
-          <BiLogoTailwindCss className="text-7xl text-cyan-400" />
+          <FaBrain className="text-7xl text-slate-400" />
         </motion.div>
       </motion.div>
     </div>

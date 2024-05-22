@@ -9,7 +9,7 @@ function Projects() {
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl">
-        Services
+        Services and Fees
       </motion.h2>
       <div>
         {PROJECTS.map((project, index) => (
@@ -26,18 +26,6 @@ function Projects() {
                 alt={project.title}
                 className="mb-6 rounded"
               />
-              <div className="mb-3">
-                <span className="mr-2 rounded bg-neutral-900 px-2 py-1 text-small font-medium text-yellow-600">
-                  <a target="blank" href={project.site}>
-                    Live site
-                  </a>
-                </span>
-                <span className="mr-2 rounded bg-neutral-900 px-2 py-1 text-small font-medium text-purple-100">
-                  <a target="blank" href={project.code}>
-                    Code
-                  </a>
-                </span>
-              </div>
             </motion.div>
 
             <motion.div
